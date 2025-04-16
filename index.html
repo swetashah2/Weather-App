@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style></style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <div class="search_box">
+          <input
+            type="text"
+            class="search_input"
+            placeholder="Enter City Name"
+            spellcheck="false"
+          />
+        </div>
+        <div class="search_icon">
+          <button>
+            <img
+              src="./images/search icon.png"
+              alt="Search Icon"
+              height="20px"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+
+      <div class="main">
+        <div class="icon">
+          <img
+            src="./images/weather.png"
+            alt="drizzle img"
+            class="weather_icon"
+            height="170px"
+            width="170px"
+          />
+        </div>
+        <div class="temp_info">
+          <h1 class="temp">°c</h1>
+          <h2 class="city">city</h2>
+        </div>
+      </div>
+
+      <div class="etc_info">
+        <div class="humidity">
+          <i class="fa-solid fa-water fa-2xl"></i>
+          <div class="humidity_info">
+            <h2 class="humid">__%</h2>
+            <h4>Humidity</h4>
+          </div>
+        </div>
+        <div class="wind_speed">
+          <i class="fa-solid fa-wind fa-2xl"></i>
+          <div class="wind_speed_info">
+            <h2 class="speed">__ km/h</h2>
+            <h4>Wind Speed</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
