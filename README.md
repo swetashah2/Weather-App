@@ -4,10 +4,10 @@ A simple and clean web-based weather application that allows users to retrieve t
 
 ## Demo
 
-![City Agra](./images/ss1.png) 
-![City Tokyo](./images/ss2.png) 
-![City Seoul](./images/ss3.png) 
-*<-- Replace this with a real screenshot of your app!*
+![City Agra](./images/ss1.png)
+![City Tokyo](./images/ss2.png)
+![City Seoul](./images/ss3.png)
+_<-- Replace this with a real screenshot of your app!_
 
 ## Features
 
@@ -35,12 +35,14 @@ A simple and clean web-based weather application that allows users to retrieve t
 To run this project on your local machine, follow these simple steps:
 
 1.  **Download or Clone the Project**
+
     - Download the ZIP file and extract it, or clone the repository using Git:
       ```bash
       git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
       ```
 
 2.  **Get a Free API Key**
+
     - This project requires an API key from OpenWeatherMap.
     - Go to [https://openweathermap.org/api](https://openweathermap.org/api) and sign up for a free account.
     - Find your API key on your account page.
