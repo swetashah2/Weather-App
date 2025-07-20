@@ -8,7 +8,6 @@ A simple and clean web-based weather application that allows users to retrieve t
 ![City Tokyo](./images/ss2.png)
 ![City Seoul](./images/ss3.png)
 
-
 ## Features
 
 - **City Search**: Enter the name of any city in the world to get its current weather.
