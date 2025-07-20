@@ -37,7 +37,7 @@ To run this project on your local machine, follow these simple steps:
 
     - Download the ZIP file and extract it, or clone the repository using Git:
       ```bash
-      git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+      git clone [https://github.com/your-username/your-repository-name.git](https://github.com/swetashah2/Weather-App.git)
       ```
 
 2.  **Get a Free API Key**
