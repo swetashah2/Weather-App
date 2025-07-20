@@ -7,7 +7,7 @@ A simple and clean web-based weather application that allows users to retrieve t
 ![City Agra](./images/ss1.png)
 ![City Tokyo](./images/ss2.png)
 ![City Seoul](./images/ss3.png)
-_<-- Replace this with a real screenshot of your app!_
+
 
 ## Features
 
