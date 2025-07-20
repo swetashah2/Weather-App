@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #312f2fe7;
+}
+.card {
+  padding: 11px 0;
+  border: 1px solid white;
+  height: 453px;
+  width: 30%;
+  margin: 90px auto 0;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  width: 100%x;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-block-start: 5px;
+}
+.search_box {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_input {
+  border: 0;
+  outline: 0;
+  height: 45px;
+  width: 100%;
+  color: #555;
+  background: #fffffff2;
+  border-radius: 25px;
+  padding-left: 16px;
+  font-size: 18px;
+}
+.search_icon > button {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background: #fffffff1;
+  cursor: pointer;
+}
+.main {
+  padding: 30px 20px;
+  height: 70%;
+}
+.icon {
+  margin-top: -4px;
+}
+.temp_info h1 {
+  font-size: 53px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.temp_info h2 {
+  font-size: 37px;
+  font-weight: 500;
+  font-family: Verdana, sans-serif;
+  top: -10px;
+  position: relative;
+}
+.temp_info h3 {
+  /* border: 1px solid black; */
+  margin-top: -14px;
+  font-family: inherit;
+}
+.etc_info {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7px;
+}
+.etc_info h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.etc_info h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+.humidity_info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.wind_speed_info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.wind_speed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.humidity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.error {
+  margin-top: 2px;
+  margin-left: 40px;
+  text-align: left;
+  font-size: 14px;
+  display: none;
+}
